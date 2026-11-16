@@ -25,6 +25,23 @@ import com.example.pertemuan9.uicontroller.DestinasiHome
 import com.example.pertemuan9.uicontroller.SiswaTopAppBar
 import com.example.pertemuan9.viewmodel.HomeViewModel
 import com.example.pertemuan9.viewmodel.PenyediaViewModel
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+
+import androidx.compose.material3.*
+
+import androidx.compose.runtime.*
+import androidx.compose.runtime.collectAsState
+
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.unit.dp
+
+import com.example.pertemuan9.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
